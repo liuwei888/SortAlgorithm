@@ -10,6 +10,9 @@
 using namespace std;
 void BubbleSort(int array[], int length)
 {
+	if(NULL == array || length < 0)
+		return ;
+		
 	for(int i = 0; i < length; i++)
 		for(int j = length - 1; j > i; j--)
 		{
