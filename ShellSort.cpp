@@ -30,8 +30,6 @@ void ShellSort(int array[], int length)
         }
 }
 
-
-
 int main()
 {
         int a[10] = {2, 3, 5, 10, 18, 16, 90, 78, 100, 99};
